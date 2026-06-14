@@ -19,11 +19,11 @@ Output structure (ready for 02_train_model.py):
 Usage
 ─────
     python 00_prepare_cpanemic_dataset.py \
-        --dataset_dir "C:/Users/SASTRA/Desktop/aneapp/CP-AnemiC dataset"
+        --dataset_dir "path/to/CP-AnemiC_dataset"
 
     # Optional: also export severity sub-splits (Mild / Moderate / Severe)
     python 00_prepare_cpanemic_dataset.py \
-        --dataset_dir "C:/Users/SASTRA/Desktop/aneapp/CP-AnemiC dataset" \
+        --dataset_dir "path/to/CP-AnemiC_dataset" \
         --severity_splits
 """
 

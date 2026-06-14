@@ -49,13 +49,6 @@ Phase 2:
 
 python training/train_phase2.py
 
-## Evaluation
-
-python evaluate_model.py
-
-## Export
-
-python export_tflite.py
 
 ## Reproducibility
 

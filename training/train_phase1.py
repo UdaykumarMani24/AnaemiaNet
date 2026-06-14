@@ -1,4 +1,12 @@
 """
+Dataset not redistributed.
+
+Users must obtain CP-AnemiC independently
+under original licensing terms.
+"""
+
+
+"""
 00_prepare_cpanemic_dataset.py
 ──────────────────────────────
 Prepares the CP-AnemiC dataset (your local folder) for the AnemiCare pipeline.
@@ -105,7 +113,14 @@ def copy_images(rows, src_dirs, out_dir, label, split_name, split_col_updates):
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
-
+"""
+Reproducibility:
+Random seed = 42
+Split ratio:
+Train = 0.75
+Validation = 0.15
+Test = 0.10
+"""
 def main():
     parser = argparse.ArgumentParser(
         description="Prepare CP-AnemiC dataset for AnemiCare training pipeline"

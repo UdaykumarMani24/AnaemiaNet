@@ -72,3 +72,19 @@ If using this work, please cite the associated manuscript.
 Research use only.
 
 Not intended for clinical diagnosis.
+
+
+## Repository Scope
+
+This repository is intended to support scientific reproducibility of the manuscript.
+
+The following assets are intentionally excluded:
+
+* Android deployment source code
+* Production TensorFlow Lite models
+* Trained checkpoints
+* Packaged APK binaries
+* Patient images
+
+These components may be shared upon reasonable academic request and subject to institutional and dataset restrictions.
+

@@ -1,0 +1,13 @@
+tensorflow>=2.15
+numpy
+pandas
+opencv-python
+scikit-learn
+matplotlib
+seaborn
+pillow
+scipy
+grad-cam
+tqdm
+tflite-runtime
+jupyter
